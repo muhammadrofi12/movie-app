@@ -1,0 +1,155 @@
+/* Small Screen */
+.container {
+  margin: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form__right {
+  margin-bottom: 1rem;
+}
+
+.form__title {
+  color: #4361ee;
+  font-size: 3.44rem;
+}
+
+.form__genre {
+  color: #b5179e;
+  margin-bottom: 1rem;
+  font-size: 1.59rem;
+}
+
+.form__description {
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.form__button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #4361ee;
+  color: #fff;
+}
+
+.form__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border: 1px solid #4361ee;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #334ccc;
+}
+
+.form__button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #4361ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #334ccc;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  /*
+   * Tidak ada yang perlu diubah di sini.
+   */
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .form {
+    margin: 0 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+  }
+
+  .form__left {
+    flex-basis: 60%;
+  }
+
+  .form__right {
+    flex-basis: 40%;
+    margin: 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form div {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+  }
+
+  input,
+  select {
+    padding: 0.5rem;
+    border: 1px solid #4361ee;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: #334ccc;
+  }
+
+  .form__button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #4361ee;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .form__button:hover {
+    background-color: #334ccc;
+  }
+}

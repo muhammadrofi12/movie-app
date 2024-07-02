@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../../assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+/* Small Screen */
+.container {
+  background-color: #4361ee;
+  padding: 1rem;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__left {
+  flex-grow: 1;
+}
+
+.navbar__brand {
+  font-family: 'Poppins-Light', sans-serif;
+  font-size: 36px;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.navbar__right {
+  display: flex;
+}
+
+.navbar__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  opacity: 0.5;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.navbar__item:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .navbar__item {
+    margin-right: 2rem;
+  }
+}
